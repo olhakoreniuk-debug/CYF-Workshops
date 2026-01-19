@@ -10,3 +10,6 @@ console.log(Math.abs());
 console.log(Math.abs(-100));
 
 // Run the file with Node to check your answer
+console.log(Math.abs); → logs the function itself
+console.log(Math.abs()); → logs NaN
+console.log(Math.abs(-100)); → logs 100

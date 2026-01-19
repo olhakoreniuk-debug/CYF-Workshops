@@ -12,5 +12,8 @@
 // Part 3: Using Part 2, explain the difference between Math.trunc() and Math.floor() in your own words
 
 
+Math.trunc() removes the decimal part of a number and returns only the integer part, always moving toward zero. 
+Math.floor() rounds a number down to the nearest integer, which means it behaves ,t/
+he same as Math.trunc() for positive numbers but returns a smaller, more negative value for negative numbers.
 
 

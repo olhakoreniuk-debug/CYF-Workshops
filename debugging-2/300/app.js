@@ -13,12 +13,12 @@ form.addEventListener("submit", (event) => {
   checkEmail(email);
 });
 //4 functions to check validations:
-const validateForm = (inputArr) => {
-  inputArr.forEach((input) => {
+const validateForm = (input) => {
+  input.forEach((input) => {
     if (input.value === "") {
       showError(input, `This field is required`);
     } else {
-      showSuccess(inputArr);
+      showSuccess(input);
     }
   });
 };
